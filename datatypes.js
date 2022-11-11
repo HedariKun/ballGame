@@ -44,7 +44,7 @@ class Cup extends Component {
         playAnimation = true
         if (this.hasBall) {
             const date = new Date(Date.now())
-            if (date.getMonth() == "10" && date.getDate() == "11") {
+            if (date.getMonth() == "10" && date.getDate() == "12") {
                 alert("you found the ball! \n andddd happy birthday lil rawa \n congratz for reaching so far \n you have done more than enough so far and i am so sure you will do even more amazing in future!! \n best of my hope and wishes Hedari~")
             } else {
                 alert("you found the ball!!")

@@ -59,7 +59,7 @@ class Cup extends Component {
         ctx.fillStyle = "orange"
         if (this.hasBall) {
             ctx.beginPath()
-            const r = 25
+            const r = 30 * ((YScaleFactor + XScaleFactor) / 2)
             console.log(this.GetWidth() / 2, this.GetWidth())
             ctx.arc((this.GetPosition().x + (Math.floor(this.GetWidth() / 2))),
                     (this.#oldPosition.y * YScaleFactor + this.GetHeight() - r), r, 0, 2 * Math.PI)
